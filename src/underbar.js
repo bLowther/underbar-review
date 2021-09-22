@@ -117,6 +117,21 @@
       });
       return values;
     }
+    // var iteratedArray = [];
+    // var uniqueArrayy = [];
+    // _.each(array, function(item, index) {
+    //   if (iterator) {
+    //     iteratedArray.push(iterator(item));
+    //   } else {
+    //     iteratedArray.push(_.identity(item));
+    //   }
+    // });
+    // _.filter(iteratedArray, function(item, index) {
+    //   if (_.indexOf(iteratedArray, item) === index) {
+    //     uniqueArrayy.push(array[index]);
+    //   }
+    // });
+    // return uniqueArrayy;
   };
 
 
